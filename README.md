@@ -44,11 +44,12 @@ src/
 
 ```bash
 # 1. Compile all Java source files
-mkdir -p out/production
-javac -d out/production $(find src -name "*.java")
+1.open a new Project
+2.go to terminal paste this command
+3.git clone https://github.com/fahadmoaj-official/Hospital-Management-System-java.git
 
 # 2. Run the application
-java -cp out/production com.hospital.Main
+You can also simply open the cloned folder in IntelliJ IDEA, and click the green ▶️ Run button on Main.java!
 ```
 
 ### Default Login Credentials
