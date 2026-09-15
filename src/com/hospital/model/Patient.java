@@ -1,0 +1,44 @@
+package com.hospital.model;
+
+public class Patient extends Person {
+    private int age;
+    private String gender;
+    private String disease;
+
+    public Patient(int id, String name, int age, String gender, String phone, String disease) {
+        super(id, name, phone);
+        this.age = age;
+        this.gender = gender;
+        this.disease = disease;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public String getDisease() {
+        return disease;
+    }
+
+    public void setDisease(String disease) {
+        this.disease = disease;
+    }
+
+    // Method Overriding (Polymorphism)
+    @Override
+    public String getDetails() {
+        return super.getDetails() + " | Age: " + age + " | Gender: " + gender + " | Disease: " + disease;
+    }
+}
