@@ -1,6 +1,6 @@
-# Hospital Management System (Java OOP)
+# Healthcare management System (Java OOP)
 
-A modular, enterprise-structured Hospital Management System built with Core Java following the 4 Pillars of Object-Oriented Programming (OOP) and Layered Architecture.
+A modular, enterprise-structured Healthcare management System built with Core Java following the 4 Pillars of Object-Oriented Programming (OOP) and Layered Architecture.
 
 ---
 
