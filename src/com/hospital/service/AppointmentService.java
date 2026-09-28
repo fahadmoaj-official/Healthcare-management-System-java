@@ -17,10 +17,12 @@ public class AppointmentService {
         System.out.print("Patient ID: ");
         int pid = InputScanner.readInt();
 
+
         Patient patient = db.findPatient(pid);
         if (patient == null) {
             System.out.println("Patient not found!");
             return;
+            //
         }
 
         System.out.print("Doctor ID: ");

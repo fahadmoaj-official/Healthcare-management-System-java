@@ -174,6 +174,6 @@ Medical Histories    : 0
 
 ## 4. Conclusion
 
-The **Hospital Management System (HMS)** demonstrates how applying structured software design patterns transforms monolithic code into a clean, maintainable, and scalable application. 
+The **Healthcare Management System (HMS)** demonstrates how applying structured software design patterns transforms monolithic code into a clean, maintainable, and scalable application. 
 
 By separating concerns into clear packages (`model`, `repository`, `service`, `ui`, `util`) and fully leveraging Object-Oriented Programming pillars (Encapsulation, Abstraction, Inheritance, and Polymorphism), the system ensures data integrity, ease of maintenance, and effortless extensibility for future enhancements (such as persistent database integration or graphical user interface development).

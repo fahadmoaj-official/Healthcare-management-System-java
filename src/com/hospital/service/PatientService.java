@@ -47,6 +47,7 @@ public class PatientService implements HospitalService {
         if (patients.isEmpty()) {
             System.out.println("No patients found.");
             return;
+            //
         }
 
         for (Patient p : patients) {
